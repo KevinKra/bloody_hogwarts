@@ -1,0 +1,11 @@
+<section>
+  <% @students.each do |student| %>
+    <article id="student-<%= student.id %>">
+      <ul>
+        <li><%= student.name %></li>
+        <li><%= student.age %></li>
+        <li><%= student.house %></li>
+      </ul>
+    </article>
+  <% end %>
+</section>
