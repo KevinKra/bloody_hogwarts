@@ -6,20 +6,17 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-potions = Course.new("Potions")
-dark_arts = Course.new("Dark Arts") 
-
-harry = Student.new(
+harry = Student.create(
   name: "Harry", 
   age: 17, 
   house: "GriffyDoor"
  )
-ron = Student.new(
+ron = Student.create(
   name: "Ron", 
   age: 16, 
   house: "GriffyDoor"
  )
-hermione = Student.new(
+hermione = Student.create(
   name: "Hermione", 
   age: 17, 
   house: "GriffyDoor"
